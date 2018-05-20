@@ -1,0 +1,329 @@
+2018-04-10 11:26:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2018-04-10 11:26:50 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2018-04-10 11:27:21 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Умный фильтр
+
+FILE: catalog/controller/product/category.php
+CODE: $this->model_catalog_product->getProducts($filter_data)
+LINE: 191
+CODE: = $this->model_catalog_product->getTotalProducts($filter_data)
+LINE: 189
+
+FILE: catalog/controller/product/compare.php
+CODE: $this->model_catalog_product->getProducts($filter_data)
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->model_catalog_product->getProducts($filter_data)
+LINE: 201
+CODE: = $this->model_catalog_product->getTotalProducts($filter_data)
+LINE: 199
+
+FILE: catalog/controller/product/product.php
+CODE: $this->model_catalog_product->getProducts($filter_data)
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/product/search.php
+CODE: $this->model_catalog_product->getProducts($filter_data)
+LINE: 214
+CODE: = $this->model_catalog_product->getTotalProducts($filter_data)
+LINE: 212
+
+FILE: catalog/controller/product/special.php
+CODE: $this->model_catalog_product->getProducts($filter_data)
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $category_info = $this->model_catalog_category->getCategory($category_id);
+LINE: 112
+CODE: $results = $this->model_catalog_category->getCategories($category_id);
+LINE: 186
+REGEX: /\'product\/category\', \'path\=\' \. \$this\-\>request\-\>get\[\'path\'\]/
+LINE: 154
+LINE: 205
+LINE: 286
+LINE: 292
+LINE: 298
+LINE: 304
+LINE: 310
+LINE: 317
+LINE: 323
+LINE: 330
+LINE: 336
+LINE: 363
+LINE: 389
+CODE: if ($page == 1) {
+LINE: 399
+CODE: if ($limit && ceil($product_total / $limit) > $page) {
+LINE: 411
+CODE: $product_total = $this->model_catalog_product->getTotalProductSpecials();
+LINE: 96
+CODE: $results = $this->model_catalog_product->getProductSpecials($filter_data);
+LINE: 102
+CODE: if (isset($this->request->get['search']) || isset($this->request->get['tag'])) {
+LINE: 198
+
+FILE: catalog/model/catalog/product.php
+CODE: public function getProducts($data = array()) {
+LINE: 59
+CODE: public function getTotalProducts($data = array()) {
+LINE: 449
+CODE: $this->cache->delete('product');
+LINE: 368
+----------------------------------------------------------------
